@@ -1,7 +1,5 @@
-package dp;
+package obsever;
 
-
-import empty.Weather;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +21,7 @@ public class ObservableModel<T> {
      * 2，实现方式：自定义，java中提供的Observable类和Observer接口
      * 3，优点：解耦，表示层和数据逻辑层的分离，可读性加强
      * 4，Android常见使用：setOnClickListener（一对一关系），addOnScrollListener（以add方式添加的），Broadcast，EventBus，RxJava
+     * 5，使用系统提供的Observable类和Observer接口，需要注意setChanged()方法，标识数据已经改变，否则notifyObservers无效
      */
 
     private List<Observer<T>> mObservers = new ArrayList<>();//用来存放Observer

@@ -1,4 +1,4 @@
-package dp;
+package singleton;
 
 /**
  * Created by Sunmeng on 2017/9/8.

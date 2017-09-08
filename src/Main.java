@@ -1,6 +1,8 @@
-import dp.ObservableModel;
-import dp.Observer;
+import obsever.ObservableModel;
+import obsever.Observer;
 import empty.Weather;
+import obsever.SimpleObservable;
+import obsever.SimpleObserver;
 
 public class Main {
 
@@ -12,5 +14,10 @@ public class Main {
         Weather weather = new Weather("晴转多云");
         observableModel.notifyObservers(weather);
         observableModel.unRegister(observer);
+        //java observer
+        SimpleObservable simpleObservable = new SimpleObservable();
+        SimpleObserver simpleObserver = new SimpleObserver();
+        simpleObservable.addObserver(simpleObserver);
+        simpleObservable.setData(1);
     }
 }

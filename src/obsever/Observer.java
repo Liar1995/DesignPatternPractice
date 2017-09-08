@@ -1,4 +1,6 @@
-package dp;
+package obsever;
+
+import obsever.ObservableModel;
 
 /**
  * Created by Sunmeng on 2017/9/8.
