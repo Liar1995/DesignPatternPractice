@@ -9,6 +9,9 @@ package empty;
 
 public class Person {
 
+    public Person() {
+    }
+
     private String name;
     private int age;
     private double height;
