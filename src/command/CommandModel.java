@@ -12,14 +12,13 @@ public class CommandModel {
      * ConcreteCommand（具体命令，Command的实现，会持有Receicer的实例，并调用接收者相关的命令）
      * Invoker（请求者）带参（Command）构造，执行请求者的命令，可以在Invoker内统一控制所有的命令（撤销(Undo)操作和恢复(Redo)操作）
      * Receicer（接收者）执行命令后做的实际事
+     * Android源码中 new Thread(() -> {}).start(); 就是命令模式
      */
     public static void main(String[] args) {
-
         Receiver receiver = new Receiver();
         Command command=new TencentCommand(receiver);
         Invoker invoker=new Invoker(command);
         invoker.action();
     }
-
 
 }
