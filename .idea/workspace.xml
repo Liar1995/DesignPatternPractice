@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2bfd26b-8509-468c-84aa-845268d030fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/adapter/AdapterModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/DecoratorModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/IPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/IPhoneChange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/MobilePhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/RedIPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/YellowIPhone.java" />
+    <list default="true" id="a2bfd26b-8509-468c-84aa-845268d030fb" name="Default" comment="add command,adapter,decorator">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Aggregate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteAggregate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Iterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/IteratorModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/Strategy/StrategyModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/chain/ChainModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/chain/ConcreteHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/chain/Handler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DesignPatternPractice/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../DesignPatternPractice/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DesignPatternPractice/src/command/CommandModel.java" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/command/CommandModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../DesignPatternPractice/src/adapter/AdapterModel.java" afterPath="$PROJECT_DIR$/../DesignPatternPractice/src/adapter/AdapterModel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../DesignPatternPractice/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,124 +38,127 @@
       <file leaf-file-name="CommandModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/command/CommandModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="439">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DecoratorModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/DecoratorModel.java">
+      <file leaf-file-name="ChainModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/chain/ChainModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="381">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdapterModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/adapter/AdapterModel.java">
+      <file leaf-file-name="IteratorModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/IteratorModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-              <folding>
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MobilePhone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/MobilePhone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="348">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IPhone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/IPhone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
-              <folding>
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPhoneChange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/IPhoneChange.java">
+      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedIPhone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/RedIPhone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YellowIPhone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/YellowIPhone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TencentCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/command/TencentCommand.java">
+      <file leaf-file-name="ConcreteIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="-199">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/command/Invoker.java">
+      <file leaf-file-name="Aggregate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Aggregate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="203">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteAggregate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteAggregate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="23" />
               <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StrategyModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Strategy/StrategyModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="e#2397#2398#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/chain/ConcreteHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/chain/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,15 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/Grape.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/simplefactory/FruitFactory.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/simplefactory/Fruit.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/simplefactory/BadFruitException.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/factorymethod/AppleFactory.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/factorymethod/BaseFruitFactory.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/FactoryMethodModel.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/bean/Phone.java" />
-        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/bean/Computer.java" />
         <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/bean/SumPhone.java" />
         <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/bean/SumComputer.java" />
         <option value="$PROJECT_DIR$/../DesignPatternPractice/src/factory/abstractfactory/Factory.java" />
@@ -239,6 +235,15 @@
         <option value="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/YellowIPhone.java" />
         <option value="$PROJECT_DIR$/../DesignPatternPractice/src/decorator/DecoratorModel.java" />
         <option value="$PROJECT_DIR$/../DesignPatternPractice/src/adapter/AdapterModel.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/chain/ConcreteHandler.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/chain/Handler.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/chain/ChainModel.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteIterator.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Aggregate.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteAggregate.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/IteratorModel.java" />
+        <option value="$PROJECT_DIR$/../DesignPatternPractice/src/Strategy/StrategyModel.java" />
       </list>
     </option>
   </component>
@@ -273,18 +278,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DesignPatternPractice" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DesignPatternPractice" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,7 +305,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignPatternPractice" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DesignPatternPractice" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdapterModel">
+  <component name="RunManager" selected="Application.StrategyModel">
     <configuration name="AdapterModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -361,14 +366,14 @@
       <module name="DesignPatternPractice" />
       <envs />
     </configuration>
-    <configuration name="CommandModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ChainModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="command.*" />
+          <option name="PATTERN" value="chain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="command.CommandModel" />
+      <option name="MAIN_CLASS_NAME" value="chain.ChainModel" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -399,14 +404,14 @@
       <module name="DesignPatternPractice" />
       <envs />
     </configuration>
-    <configuration name="DynamicProxyModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="IteratorModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="proxy.statics.*" />
+          <option name="PATTERN" value="Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="proxy.DynamicProxyModel" />
+      <option name="MAIN_CLASS_NAME" value="Iterator.IteratorModel" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -418,14 +423,14 @@
       <module name="DesignPatternPractice" />
       <envs />
     </configuration>
-    <configuration name="StaticProxyModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="proxy.statics.*" />
+          <option name="PATTERN" value="Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="proxy.StaticProxyModel" />
+      <option name="MAIN_CLASS_NAME" value="Strategy.StrategyModel" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -453,19 +458,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StaticProxyModel" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DynamicProxyModel" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CommandModel" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DecoratorModel" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AdapterModel" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DecoratorModel" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AdapterModel" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ChainModel" />
+      <item index="3" class="java.lang.String" itemvalue="Application.IteratorModel" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StrategyModel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AdapterModel" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DecoratorModel" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CommandModel" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DynamicProxyModel" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StaticProxyModel" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StrategyModel" />
+        <item index="1" class="java.lang.String" itemvalue="Application.IteratorModel" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ChainModel" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AdapterModel" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DecoratorModel" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +491,9 @@
       <workItem from="1505373859807" duration="24022000" />
       <workItem from="1505699868854" duration="6401000" />
       <workItem from="1505725792981" duration="3181000" />
-      <workItem from="1505784250343" duration="14275000" />
+      <workItem from="1505784250343" duration="16633000" />
+      <workItem from="1505815859644" duration="243000" />
+      <workItem from="1505868737397" duration="22539000" />
     </task>
     <task id="LOCAL-00001" summary="add observer code">
       <created>1504855725592</created>
@@ -530,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505728620532</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add command,adapter,decorator">
+      <created>1505810422902</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1505810422902</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56382000" />
+    <option name="totallyTimeSpent" value="81522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -547,13 +561,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63804346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6368715" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Material Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -608,7 +622,8 @@
     <MESSAGE value="add FactoryMethodModel and AbstractFactoryModel" />
     <MESSAGE value="add proxyModel" />
     <MESSAGE value="add commandModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add commandModel" />
+    <MESSAGE value="add command,adapter,decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add command,adapter,decorator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -619,70 +634,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/reflection/ReflectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/obsever/ObservableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/FactoryMethod.java" />
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/simplefactory/FruitFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/simplefactory/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/simplefactory/BadFruitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/factorymethod/BaseFruitFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/bean/SumPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Compiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/bean/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/factory/bean/SumComputer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -851,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="24" column="89" lean-forward="false" selection-start-line="24" selection-start-column="89" selection-end-line="24" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +860,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/command/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="290">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="e#186#187#0" expanded="true" />
@@ -933,18 +871,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/DecoratorModel/DecoratorModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/DecoratorModel/DecoratorModel.java" />
     <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/YellowIPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -960,18 +891,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/MobilePhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/RedIPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
             <element signature="e#191#192#0" expanded="true" />
             <element signature="e#225#226#0" expanded="true" />
@@ -984,7 +907,7 @@
     <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/IPhoneChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#234#235#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
@@ -994,31 +917,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/command/CommandModel.java">
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/DecoratorModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="522">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/DecoratorModel.java">
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/decorator/MobilePhone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="203">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-DesignPatternPractice">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-DesignPatternPractice</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-DesignPatternPractice</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="106.5" y="15.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Libraries</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/adapter/AdapterModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="406">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
             <element signature="e#636#637#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/command/CommandModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/chain/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/chain/ConcreteHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/chain/ChainModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/Aggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/ConcreteAggregate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Iterator/IteratorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DesignPatternPractice/src/Strategy/StrategyModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="e#2397#2398#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
           </folding>
         </state>
       </provider>

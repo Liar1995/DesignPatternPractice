@@ -31,7 +31,6 @@ class Adaptee {
     public void getPower110V() {
         System.out.println("get power: 110V");
     }
-
 }
 
 class Adapter extends Adaptee implements Target {
