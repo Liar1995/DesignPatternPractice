@@ -9,7 +9,7 @@ import factory.bean.Phone;
 /**
  * Created by Sunmeng on 2017/9/15.
  * E-Mail:Sunmeng1995@outlook.com
- * 抽象工厂模式
+ * 抽象工厂模式 工厂有多个工厂
  */
 public class AbstractFactoryModel {
 

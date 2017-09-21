@@ -3,12 +3,13 @@ package factory;
 import factory.bean.Apple;
 import factory.factorymethod.AppleFactory;
 import factory.factorymethod.BaseFruitFactory;
+import factory.factorymethod.GrapeFactory;
 import factory.simplefactory.Fruit;
 
 /**
  * Created by Sunmeng on 2017/9/15.
  * E-Mail:Sunmeng1995@outlook.com
- * 工厂方法模式
+ * 工厂方法模式,产品有多个工厂
  */
 public class FactoryMethodModel {
 
@@ -20,10 +21,9 @@ public class FactoryMethodModel {
      */
 
     public static void main(String[] args) {
-
         BaseFruitFactory appleFac = new AppleFactory();
         Fruit apple = appleFac.newInstance();
         apple.grow();
-
+        new GrapeFactory().newInstance().grow();
     }
 }

@@ -13,6 +13,7 @@ public class AdapterModel {
      * 它包括了客户所需的接口。在适配器模式中，目标角色对应的类一般是抽象类或接口，而不是实例类
      * 源(Adaptee) 现有的接口
      * 适配器(Adapter) 把源接口转换成目标接口
+     * 类适配器模式采用的是多重继承的方式，对象适配器采用的是包含的方式，区别组主要在于适配器中
      */
     public static void main(String[] args) {
         Target target = new Adapter();
