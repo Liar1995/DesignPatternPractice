@@ -1,0 +1,25 @@
+package mediator;
+
+/**
+ * Created by Sunmeng on 2017/9/26.
+ * E-Mail:Sunmeng1995@outlook.com
+ * 同事类——显卡
+ */
+public class VideoCard extends Colleague {
+
+    /**
+     * 显示视频数据
+     */
+    public void showData(String data){
+        System.out.println("您正在观看的是：" + data);
+    }
+
+    /**
+     * 构造函数
+     *
+     * @param mediator
+     */
+    public VideoCard(Mediator mediator) {
+        super(mediator);
+    }
+}
